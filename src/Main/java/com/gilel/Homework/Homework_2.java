@@ -6,6 +6,7 @@ public class Homework_2 {
        short num_2 = 2;
        float num_3 = 3.0F;
        int int_num_3 = (int) num_3;
+       byte num_4 = 4;
 
        char point = '.';
        char coor_symb = '\u00B0';
@@ -15,6 +16,7 @@ public class Homework_2 {
        String obj_name_1 = " Burj Khalifa";
        String obj_name_2 = " Palm Jumeirah";
        String obj_name_3 = " Dubai, JLT, Cluster J, Bonnington Tower";
+       String obj_name_4 = " Palm Jebel Ali";
 
        double coor_north_obj_1 = 25.197139;
        float coor_west_obj_1 = 55.274111F;
@@ -22,6 +24,8 @@ public class Homework_2 {
        float coor_west_obj_2 = 55.1375F;
        double coor_north_obj_3 = 25.0674995;
        float coor_west_obj_3 = 55.1420026F;
+       double coor_north_obj_4 = 25.005972;
+       float coor_west_obj_4 = 55.988289F;
 
          System.out.println(num_1 + "" + point + obj_name_1);
          System.out.println(coor_name_north + coor_north_obj_1 + coor_symb);
@@ -42,5 +46,9 @@ public class Homework_2 {
          System.out.println(obj_name_3);
          System.out.println(coor_name_north + coor_north_obj_3 + coor_symb);
          System.out.println(coor_name_west + coor_west_obj_3 + coor_symb);
+
+        System.out.println(num_4 + "" + point + obj_name_4);
+        System.out.println(coor_name_north + coor_north_obj_4 + coor_symb);
+        System.out.println(coor_name_west + coor_west_obj_4 + coor_symb);
     }
 }
