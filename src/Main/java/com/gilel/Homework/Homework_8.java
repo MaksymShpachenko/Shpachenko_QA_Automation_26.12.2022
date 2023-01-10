@@ -12,7 +12,7 @@ public class Homework_8 {
             boolean find4 = shuttle_number_str.contains("4");
             boolean find9 = shuttle_number_str.contains("9");
             if (!find4 && !find9) {
-                System.out.println("Shuttle's sequence number: " + shuttle_number + ", Number for this shuttle: " + shuttle_number_str);
+                System.out.println("Shuttles sequence number: " + shuttle_number + ", Number for this shuttle: " + shuttle_number_str);
                 shuttle_number++;
             }
 
