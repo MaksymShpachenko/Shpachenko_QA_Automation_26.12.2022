@@ -28,7 +28,7 @@ public class WebDrivers {
         Assertions.assertTrue(mailingPopup.isDisplayed());
     }
     @Test
-    public void advertisement() {
+    public void advert() {
         driver.get("https://ithillel.ua/");
         driver.findElement(By.xpath("//input[@id='input-email-mailing']")).click();
         WebElement emailField = driver.findElement(By.xpath("//input[@id='input-email-mailing']"));
